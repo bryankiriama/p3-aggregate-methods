@@ -34,6 +34,7 @@ class Course:
 class Enrollment:
     all = []
     
+
     def __init__(self, student, course):
         if isinstance(student, Student) and isinstance(course, Course):
             self.student = student
